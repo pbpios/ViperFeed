@@ -14,6 +14,9 @@
 		8F44EC7120CED48E0027E91A /* ViperFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F44EC7020CED48E0027E91A /* ViperFeedTests.swift */; };
 		8F44EC7C20CED48F0027E91A /* ViperFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F44EC7B20CED48F0027E91A /* ViperFeedUITests.swift */; };
 		8F44EC8A20CED4F50027E91A /* VFViperFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F44EC8920CED4F50027E91A /* VFViperFeedViewController.swift */; };
+		AF6BE0B820D22A1B00571A2F /* VFViperRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6BE0B720D22A1B00571A2F /* VFViperRouter.swift */; };
+		AF6BE0BA20D22A3D00571A2F /* VFViperPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6BE0B920D22A3D00571A2F /* VFViperPresenter.swift */; };
+		AF6BE0BC20D22A5000571A2F /* VFViperInterpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6BE0BB20D22A5000571A2F /* VFViperInterpreter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		8F44EC7B20CED48F0027E91A /* ViperFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperFeedUITests.swift; sourceTree = "<group>"; };
 		8F44EC7D20CED48F0027E91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F44EC8920CED4F50027E91A /* VFViperFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFViperFeedViewController.swift; sourceTree = "<group>"; };
+		AF6BE0B720D22A1B00571A2F /* VFViperRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFViperRouter.swift; sourceTree = "<group>"; };
+		AF6BE0B920D22A3D00571A2F /* VFViperPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFViperPresenter.swift; sourceTree = "<group>"; };
+		AF6BE0BB20D22A5000571A2F /* VFViperInterpreter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFViperInterpreter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				8F44EC5B20CED48E0027E91A /* AppDelegate.swift */,
 				8F44EC8920CED4F50027E91A /* VFViperFeedViewController.swift */,
+				AF6BE0B720D22A1B00571A2F /* VFViperRouter.swift */,
+				AF6BE0B920D22A3D00571A2F /* VFViperPresenter.swift */,
+				AF6BE0BB20D22A5000571A2F /* VFViperInterpreter.swift */,
 				8F44EC5F20CED48E0027E91A /* Main.storyboard */,
 				8F44EC6220CED48E0027E91A /* Assets.xcassets */,
 				8F44EC6420CED48E0027E91A /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF6BE0B820D22A1B00571A2F /* VFViperRouter.swift in Sources */,
 				8F44EC8A20CED4F50027E91A /* VFViperFeedViewController.swift in Sources */,
+				AF6BE0BC20D22A5000571A2F /* VFViperInterpreter.swift in Sources */,
 				8F44EC5C20CED48E0027E91A /* AppDelegate.swift in Sources */,
+				AF6BE0BA20D22A3D00571A2F /* VFViperPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
